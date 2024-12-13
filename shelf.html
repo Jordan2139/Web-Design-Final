@@ -12,13 +12,13 @@
     <!-- Header Include -->
     <div data-include="partials/header.html"></div>
 
-    <main class="container my-5">
+    <main class="container my-5" style="max-width: 90%;">
         <h1 class="text-center mb-4">My Shelf</h1>
         <p class="text-center">All of the books I've read, categorized by month.</p>
 
         <!-- Accordion -->
         <div class="accordion" id="shelfAccordion">
-            <!-- Example Month (Repeat for Each Month) -->
+            <!-- December 2024 -->
             <div class="accordion-item bg-dark text-light">
                 <h2 class="accordion-header" id="headingDecember2024">
                     <button class="accordion-button bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDecember2024" aria-expanded="true" aria-controls="collapseDecember2024">
@@ -27,7 +27,6 @@
                 </h2>
                 <div id="collapseDecember2024" class="accordion-collapse collapse show" aria-labelledby="headingDecember2024" data-bs-parent="#shelfAccordion">
                     <div class="accordion-body">
-                        <!-- Book Item -->
                         <div class="d-flex mb-4">
                             <img src="https://m.media-amazon.com/images/I/91xBRNN9AuL.jpg" alt="Fourth Wing" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
                             <div>
@@ -39,7 +38,7 @@
                 </div>
             </div>
 
-            <!-- Repeat for Other Months -->
+            <!-- November 2024 -->
             <div class="accordion-item bg-dark text-light">
                 <h2 class="accordion-header" id="headingNovember2024">
                     <button class="accordion-button bg-secondary text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNovember2024" aria-expanded="false" aria-controls="collapseNovember2024">
@@ -48,30 +47,74 @@
                 </h2>
                 <div id="collapseNovember2024" class="accordion-collapse collapse" aria-labelledby="headingNovember2024" data-bs-parent="#shelfAccordion">
                     <div class="accordion-body">
-                        <!-- Book Item 1 -->
                         <div class="d-flex mb-4">
                             <img src="https://prodimage.images-bn.com/pimages/9780316540841_p0_v7_s600x595.jpg" alt="All In" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
                             <div>
                                 <p><strong>Title:</strong> All In (Naturals #3)</p>
                                 <p><strong>Author:</strong> Jennifer Lynn Barnes</p>
-                                <p><strong>Series:</strong> The Naturals</p>
                             </div>
                         </div>
-
-                        <!-- Book Item 2 -->
                         <div class="d-flex mb-4">
                             <img src="https://www.hachettebookgroup.com/wp-content/uploads/2022/10/9780316312486.jpg" alt="One Dark Window" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
                             <div>
                                 <p><strong>Title:</strong> One Dark Window (The Shepherd King #1)</p>
                                 <p><strong>Author:</strong> Rachel Gillig</p>
-                                <p><strong>Series:</strong> The Shepherd King</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <img src="https://m.media-amazon.com/images/I/91dXV0mGS3L._AC_UF1000,1000_QL80_.jpg" alt="Two Twisted Crowns" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
+                            <div>
+                                <p><strong>Title:</strong> Two Twisted Crowns (The Shepherd King #2)</p>
+                                <p><strong>Author:</strong> Rachel Gillig</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <img src="https://m.media-amazon.com/images/I/81hSeM63u7L.jpg" alt="Bad Blood" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
+                            <div>
+                                <p><strong>Title:</strong> Bad Blood (Naturals #4)</p>
+                                <p><strong>Author:</strong> Jennifer Lynn Barnes</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Add more accordion items for other months similarly -->
+            <!-- October 2024 -->
+            <div class="accordion-item bg-dark text-light">
+                <h2 class="accordion-header" id="headingOctober2024">
+                    <button class="accordion-button bg-secondary text-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOctober2024" aria-expanded="false" aria-controls="collapseOctober2024">
+                        October 2024
+                    </button>
+                </h2>
+                <div id="collapseOctober2024" class="accordion-collapse collapse" aria-labelledby="headingOctober2024" data-bs-parent="#shelfAccordion">
+                    <div class="accordion-body">
+                        <div class="d-flex mb-4">
+                            <img src="https://m.media-amazon.com/images/I/91Sk1mXvieL._UF1000,1000_QL80_.jpg" alt="The Ashes and the Star-Cursed King" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
+                            <div>
+                                <p><strong>Title:</strong> The Ashes and the Star-Cursed King (Crowns of Nyaxia #2)</p>
+                                <p><strong>Author:</strong> Carissa Broadbent</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <img src="https://m.media-amazon.com/images/I/71VXkRoa9CL.jpg" alt="Nothing Like the Movies" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
+                            <div>
+                                <p><strong>Title:</strong> Nothing Like the Movies</p>
+                                <p><strong>Author:</strong> Lynn Painter</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <img src="https://m.media-amazon.com/images/I/81N6pjRZLbL.jpg" alt="The Seven Year Slip" class="img-fluid rounded me-3" style="width: 100px; height: auto;">
+                            <div>
+                                <p><strong>Title:</strong> The Seven Year Slip</p>
+                                <p><strong>Author:</strong> Ashley Poston</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat for Remaining Months -->
+
         </div>
     </main>
 
