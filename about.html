@@ -13,19 +13,35 @@
     <div data-include="partials/header.html"></div>
 
     <main class="container my-5" style="max-width: 80%;">
-        <!-- About Me -->
-        <h1 class="text-center mb-4">About Me!</h1>
-        <div class="row align-items-center mb-5">
-            <div class="col-md-8">
-                <p>
-                    Hi I’m Megan! I’ve loved books and stories my whole life. I’m very passionate when it comes to them,
-                    and I hope my website can serve as a way to give ideas on what to read next and as a place to find
-                    solace among other readers with similar tastes.
-                </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <img src="https://i.pinimg.com/736x/b3/8d/6e/b38d6e17ed6df476baeeab86e5d71e19.jpg"
-                     alt="Megan" class="img-fluid rounded-circle" style="max-width: 200px;">
+        <!-- Profile Card -->
+        <div class="card mb-5 p-4" style="background-color: #53483c; border-radius: 15px; color: #f4f1e9;">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center">
+                    <img src="https://i.pinimg.com/736x/b3/8d/6e/b38d6e17ed6df476baeeab86e5d71e19.jpg" alt="Megan" class="img-fluid rounded-circle mb-3" style="max-width: 150px;">
+                </div>
+                <div class="col-md-8">
+                    <h1 class="text-center text-md-start">About Me!</h1>
+                    <p>
+                        Hi I’m Megan! I’ve loved books and stories my whole life. I’m very passionate when it comes to them,
+                        and I hope my website can serve as a way to give ideas on what to read next and as a place to find
+                        solace among other readers with similar tastes.
+                    </p>
+                    <!-- Social Links -->
+                    <div class="d-flex justify-content-center justify-content-md-start gap-3 mt-3">
+                        <a href="https://www.instagram.com/megan_karen_/" target="_blank" class="text-light text-decoration-none">
+                            <img src="images/instagram-logo.png" alt="Instagram" style="width: 30px;"> @megan_karen_
+                        </a>
+                        <a href="https://www.goodreads.com/megankaren" target="_blank" class="text-light text-decoration-none">
+                            <img src="images/goodreads-logo.png" alt="Goodreads" style="width: 30px;"> @megankaren
+                        </a>
+                        <a href="https://www.tiktok.com/@megan.karen" target="_blank" class="text-light text-decoration-none">
+                            <img src="images/tiktok-logo.png" alt="TikTok" style="width: 30px;"> @megan.karen
+                        </a>
+                        <a href="https://www.youtube.com/@megankaren" target="_blank" class="text-light text-decoration-none">
+                            <img src="images/youtube-logo.png" alt="YouTube" style="width: 30px;"> @megankaren
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -43,36 +59,35 @@
         <!-- Q&A Accordion -->
         <h2 class="mb-4">Book Tag Q&A!</h2>
         <div class="accordion mb-5" id="qaAccordion">
-            <!-- Question 1 -->
+            <!-- Question Template -->
             <div class="accordion-item" style="background-color: #53483c; border: none;">
                 <h2 class="accordion-header" id="q1">
-                    <button class="accordion-button text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
+                    <button class="accordion-button text-white bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true" aria-controls="a1">
                         📚 Which book would you recommend to everyone?
                     </button>
                 </h2>
                 <div id="a1" class="accordion-collapse collapse show" aria-labelledby="q1" data-bs-parent="#qaAccordion">
                     <div class="accordion-body text-white">
-                        <strong>Throne of Glass</strong> for fantasy, <strong>Better Than the Movies</strong> for Y/A romance, and <strong>Anxious People</strong> for emotional fiction.
+                        Throne of Glass, Better Than the Movies, Anxious People.
                     </div>
                 </div>
             </div>
-            <!-- Question 2 -->
+            <!-- Repeat for other questions -->
             <div class="accordion-item" style="background-color: #53483c; border: none;">
                 <h2 class="accordion-header" id="q2">
-                    <button class="accordion-button collapsed text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
-                        🧝 Who is your favorite literary character?
+                    <button class="accordion-button text-white bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2" aria-expanded="false" aria-controls="a2">
+                        🧝 Favorite literary character?
                     </button>
                 </h2>
                 <div id="a2" class="accordion-collapse collapse" aria-labelledby="q2" data-bs-parent="#qaAccordion">
                     <div class="accordion-body text-white">
-                        Celaena Sardothien and Dorian Havilliard from <em>Throne of Glass</em>.
+                        Celaena Sardothien & Dorian Havilliard from <em>Throne of Glass</em>.
                     </div>
                 </div>
             </div>
-            <!-- Add additional questions following the same format -->
             <div class="accordion-item" style="background-color: #53483c; border: none;">
                 <h2 class="accordion-header" id="q3">
-                    <button class="accordion-button collapsed text-light bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
+                    <button class="accordion-button text-white bg-transparent collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3" aria-expanded="false" aria-controls="a3">
                         🔮 What genre do you read the most?
                     </button>
                 </h2>
@@ -82,40 +97,17 @@
                     </div>
                 </div>
             </div>
-            <!-- Repeat for other Q&A items -->
+            <!-- Add more questions similarly -->
         </div>
 
         <!-- Discovering Reading -->
         <div class="p-4 mb-5" style="background-color: #53483c; border-radius: 15px;">
             <h2 class="mb-3">Discovering My Love for Reading</h2>
             <p>
-                I started reading chapter books in kindergarten—my first love was <em>Purple Princess Wins the Prize</em>.
-                Growing up, I adored receiving books as gifts. Some of my favorite childhood series were
+                I started reading chapter books in kindergarten—my first love was <em>Purple Princess Wins the Prize</em>. Growing up, I adored receiving books as gifts. Some of my favorite childhood series were
                 <em>My Sister the Vampire</em> and <em>Waterfire Saga</em>, which definitely sparked my love for fantasy!
             </p>
         </div>
-
-        <!-- Other Hobbies -->
-        <div class="p-4 mb-5" style="background-color: #53483c; border-radius: 15px;">
-            <h2 class="mb-3">Other Hobbies/Interests</h2>
-            <p>
-                Beyond reading, I enjoy crocheting, knitting, drawing, and painting. I’ve made cardigans, scarves, book sleeves, and more.
-                I also love playing Minecraft, Animal Crossing, and my all-time favorite game, <em>Zelda: Breath of the Wild</em>.
-                My favorite music artists include One Direction, Harry Styles, and Taylor Swift—I’ve been a fan since middle school!
-            </p>
-        </div>
-
-        <!-- Contact -->
-        <h2 class="mb-3">How To Reach Me</h2>
-        <p>
-            Feel free to reach out on any of these platforms—I’d love to hear your opinions on books or just chat!
-        </p>
-        <ul class="list-unstyled">
-            <li><strong>Instagram:</strong> <a href="https://www.instagram.com/megan_karen_/" class="text-decoration-none text-light">@megan_karen_</a></li>
-            <li><strong>Goodreads:</strong> <a href="https://www.goodreads.com/megankaren" class="text-decoration-none text-light">@megankaren</a></li>
-            <li><strong>TikTok:</strong> <a href="https://www.tiktok.com/@megan.karen" class="text-decoration-none text-light">@megan.karen</a></li>
-            <li><strong>YouTube:</strong> <a href="https://www.youtube.com/@megankaren" class="text-decoration-none text-light">@megankaren</a></li>
-        </ul>
     </main>
 
     <!-- Footer -->
