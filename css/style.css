@@ -197,3 +197,9 @@ footer {
 footer p {
     margin: 0;
 }
+
+.img-thumbnail {
+    border: 2px solid #261f18 !important; /* Override Bootstrap's default white border */
+    background-color: #261f18 !important; /* Removes any default background */
+    border-radius: 10px; /* Optional rounded corners */
+}
