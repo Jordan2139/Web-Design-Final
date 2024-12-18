@@ -179,8 +179,6 @@ hr {
 
 .video-link iframe {
     flex-basis: 40%;
-    width: 400px; /* Adjusted video size */
-    height: 600px; /* Adjusted video size */
     border: 5px solid #6a5e4e; /* Adds an aesthetic border */
     border-radius: 10px; /* Rounded corners for the video */
 }
